@@ -1,0 +1,122 @@
+.continer {
+  width: 1440px;
+  margin: 0px auto;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  margin-left: 40px;
+}
+.home .home__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .home__menus {
+  display: inline-bloc;
+}
+.home .home__icons {
+  display: flex;
+  gap: 40px;
+}
+
+.home__menus ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+}
+.home__menus ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.home__menus ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+.new-arrival {
+  height: 720px;
+  background-image: url("../imeges/scandinavian-interior-mockup-wall-decal-background 1.jpg");
+  position: relative;
+}
+.new-arrival .new-arrival-content {
+  position: absolute;
+  right: 58px;
+  bottom: 150px;
+  width: 550px;
+  height: 350px;
+  background-color: #FFF3E3;
+  border-radius: 10px;
+  padding: 62px 43px 37px 39px;
+}
+.new-arrival .new-arrival-content .new-arrival-sub-title {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600px;
+  letter-spacing: 3px;
+  padding: 0px;
+  margin: 0px;
+}
+.new-arrival .new-arrival-content .new-arrival-header-text {
+  color: #B88E2F;
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+}
+.new-arrival .new-arrival-content .new-arrival-p {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.new-arrival .new-arrival-content .new-arrival-btn {
+  padding: 25px 72px;
+  background-color: #B88E2F;
+  border: none;
+  color: white;
+  margin-top: 40px;
+}
+
+.browse-range .browse-range-header-text {
+  text-align: center;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.browse-range .browse-range-p {
+  text-align: center;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cards {
+  display: flex;
+  margin-left: 130px;
+}
+.cards .card-item {
+  width: 782.125px;
+  height: 521px;
+}
+.cards .card-item-text {
+  color: #000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */

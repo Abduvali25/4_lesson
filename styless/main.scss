@@ -1,0 +1,142 @@
+@import "./font-family";
+@import "./colors-";
+
+.continer{
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    margin-left: 40px;
+
+    .home__logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home__menus{
+        display: inline-bloc;
+
+    }
+
+    .home__icons{
+        display: flex;
+        gap: 40px;
+
+    }
+}
+
+.home__menus{
+      
+           ul{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 75px;
+           li{
+              list-style: none;
+              text-decoration: none;
+        
+            a{
+               text-decoration: none;
+               color: $--global-black;
+               font-family: $--global-poppins;
+               font-size: 16px;
+               font-weight: 500px;
+            }
+        }
+    }
+}
+.new-arrival{
+    height: 720px;
+    background-image: url("../imeges/scandinavian-interior-mockup-wall-decal-background\ 1.jpg");
+    position: relative;
+
+    .new-arrival-content{
+        position: absolute;
+        right: 58px;
+        bottom: 150px;
+        width: 550px;
+        height: 350px;
+        background-color: #FFF3E3;
+        border-radius: 10px;
+        padding: 62px 43px 37px 39px;
+
+        .new-arrival-sub-title{
+            color: #333;
+            font-family: $--global-poppins;
+            font-size: 16px;
+            font-weight: 600px;
+            letter-spacing: 3px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .new-arrival-header-text{
+            color: $--global-yellow;
+            font-family: $--global-poppins;
+            font-size: 52px;
+            font-weight: 700;
+            padding: 0px;
+            margin: 0px;
+
+        }
+        .new-arrival-p{
+            color: $--global-black;
+            font-family: $--global-poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px; 
+
+        }
+        .new-arrival-btn{
+            padding: 25px 72px;
+            background-color: $--global-yellow;
+            border: none;
+            color: white;
+            margin-top: 40px;
+        }
+
+    }
+}
+.browse-range {
+     .browse-range-header-text{
+        text-align: center;
+        color: $--global-black;
+        font-family: $--global-poppins;
+        font-size: 32px;
+        font-weight: 700;
+     }
+
+     .browse-range-p{
+        text-align: center;
+        color: #666;
+        font-family: $--global-poppins;
+        font-size: 20px;
+        font-weight: 400;
+     }
+}
+.cards{
+    display: flex;
+    margin-left: 130px;
+    .card-item{
+        width: 782.125px;
+        height: 521px;
+    }
+
+    .card-item-text{
+        color: $--global-black;
+        text-align: center;
+        font-family: $--global-poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+}
